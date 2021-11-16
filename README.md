@@ -14,3 +14,14 @@ populate the config file with your vuldb api key
 # defaults
 - LASTLOG=lastlog.json
 - ALERTLOG=alerts.json
+
+# example output
+```json
+{
+  "id": "186674",
+  "cve": "CVE-2021-42114",
+  "title": "DRAM Target Row Refresh Blacksmith Remote Code Execution",
+  "score": "9.0",
+  "created": "1637046494"
+}
+```
