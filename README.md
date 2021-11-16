@@ -12,6 +12,5 @@ run setup.sh to create the config file
 populate the config file with your vuldb api key
 
 # defaults
-LASTLOG=lastlog.json
-
-ALERTLOG=alerts.json
+- LASTLOG=lastlog.json
+- ALERTLOG=alerts.json
