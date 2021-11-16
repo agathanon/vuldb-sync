@@ -7,15 +7,20 @@ will output json with the following keys:
  - cvss3 meta base score (score)
  - creation timestamp (created)
 
-# setup
+## requirements
+- bash (for `source` built-in)
+- curl
+- jq
+
+## setup
 run setup.sh to create the config file
 populate the config file with your vuldb api key
 
-# defaults
+## defaults
 - LASTLOG=lastlog.json
 - ALERTLOG=alerts.json
 
-# example output
+## example output
 ```json
 {
   "id": "186674",
