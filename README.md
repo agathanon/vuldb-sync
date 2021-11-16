@@ -13,4 +13,5 @@ populate the config file with your vuldb api key
 
 # defaults
 LASTLOG=lastlog.json
+
 ALERTLOG=alerts.json
