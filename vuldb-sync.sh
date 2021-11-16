@@ -1,6 +1,8 @@
 #!/bin/bash
 
-cd /home/agatha/data/feeds/vuldb
+# when adding as a cronjob use absolute path
+# line below cds to script dir to source config
+cd "$(dirname "$0")"
 
 # configuration file vars:
 #    VULDB: vuldb api key
