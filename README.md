@@ -20,6 +20,9 @@ populate the config file with your vuldb api key
 - LASTLOG=lastlog.json
 - ALERTLOG=alerts.json
 
+## usage suggestions
+run using crontab and `tail -f alerts.json`
+
 ## example output
 ```json
 {
